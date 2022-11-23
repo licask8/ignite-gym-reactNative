@@ -22,7 +22,7 @@ import { UserPhoto } from './UserPhoto'
                     Olá,
                 </Text>
 
-                <Heading color="gray.100" fontSize='md'>
+                <Heading color="gray.100" fontSize='md' fontFamily='heading'>
                     Elielson
                 </Heading>
 
