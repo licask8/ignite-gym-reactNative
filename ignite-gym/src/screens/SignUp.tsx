@@ -105,9 +105,6 @@ export function SignUp() {
                 <Controller
                  control={control}
                  name='password'
-                 rules={{
-                    required: true,
-                 }}
                  render={({ field: { onChange, value }}) => (
                     <Input 
                      placeholder='Senha'
@@ -122,17 +119,14 @@ export function SignUp() {
                 <Controller
                  control={control}
                  name='password_confirm'
-                 rules={{
-                    required: true,
-                 }}
                  render={({ field: { onChange, value }}) => (
                     <Input 
                     placeholder='Confirme a Senha'
                     onChangeText={onChange}
                     value={value}
                     secureTextEntry
-                    // onSubmitEditing={handleSubmit(handleSignUp)}
-                    // returnKeyType='send'
+                    onSubmitEditing={handleSubmit(handleSignUp)}
+                    returnKeyType='send'
                     errorMessage={errors.password_confirm?.message}
                    />
                  )}
