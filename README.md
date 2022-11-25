@@ -1,1 +1,2 @@
-# ignite-gym-reactNative
+# Ignite Gym
+
