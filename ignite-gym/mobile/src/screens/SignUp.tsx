@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { Platform } from 'react-native';
-import { useNavigation} from "@react-navigation/native"
-import { VStack, Image, Center, Text, Heading, ScrollView, useToast } from 'native-base'
+import { useNavigation} from "@react-navigation/native";
+import { VStack, Image, Center, Text, Heading, ScrollView, useToast } from 'native-base';
 
-import * as yup from 'yup'
-import { yupResolver } from '@hookform/resolvers/yup'
-import { useForm, Controller } from 'react-hook-form'
+import * as yup from 'yup';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useForm, Controller } from 'react-hook-form';
 
 import { useAuth } from '@hooks/useAuth';
 
-import { api } from '@services/api'
-import { AppError } from '@utils/AppError'
+import { api } from '@services/api';
+import { AppError } from '@utils/AppError';
 
 
 import LogoSvg from '@assets/logo.svg';
