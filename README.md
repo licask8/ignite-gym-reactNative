@@ -20,4 +20,5 @@ App de treino desenvolvido com React native durante dois módulos na trilha de R
 * Babel plugin module resolver -> mapeamento de pastas
 * Expo Fonts
 
-https://user-images.githubusercontent.com/39626457/206224295-105d5f98-94d5-4919-9a2e-07fb6fdd12a5.mp4
+https://user-images.githubusercontent.com/39626457/206241198-aa8148e7-db88-4c5c-a411-be30b06bb988.mp4
+
